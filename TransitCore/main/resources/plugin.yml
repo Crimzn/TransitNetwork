@@ -1,0 +1,37 @@
+main: me.crimson.transitcore.TransitCore
+author: CrimsonCode
+version: 1.0.0-SNAPSHOT
+name: TransitCore
+description: Handles and manages all core commands/features
+
+commands:
+  report:
+    usage: /report <player> <reason>
+    description: Report rulebreakers!
+  ban:
+    usage: /ban <player> <reason>
+    description: Ban users
+  kick:
+    usage: /kick <player> <reason>
+    description: Kicks players from server (completely)
+  warn:
+    usage: /warn <player> <reason>
+    description: Alerts users privately for <reason>
+  a:
+    usage: /a <msg>
+    description: Admin chat
+  d:
+    usage: /d <msg>
+    description: Dev chat
+  s:
+    usage: /s <msg>
+    description: Staff chat
+  cc:
+    usage: /cc
+    description: Clears chat
+  rank:
+    usage: /rank <name> <+/-> <group_id>
+    description: Promotes/demotes users
+  info:
+    usage: /info <player>
+    description: Shows player IP
