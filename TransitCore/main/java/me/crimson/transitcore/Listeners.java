@@ -17,36 +17,36 @@ public class Listeners implements Listener {
 
         //Donor ranks
         if (player.hasPermission("vip.chat")) {
-            event.setFormat(ChatColor.GREEN + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.GREEN + "VIP" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
         } else if (player.hasPermission("vip.plus.chat")) {
-            event.setFormat(ChatColor.AQUA + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.AQUA + "VIP+" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
 
 
         //Staff ranks
         } else if (player.hasPermission("jrmod.chat")) {
-            event.setFormat(ChatColor.LIGHT_PURPLE + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "JR MOD" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
 
         } else if (player.hasPermission("mod.chat")) {
-            event.setFormat(ChatColor.RED + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.RED + "" + ChatColor.BOLD + "MOD" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
 
         } else if (player.hasPermission("srmod.chat")) {
-            event.setFormat(ChatColor.DARK_RED + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.DARK_RED + "" + ChatColor.BOLD + "SR MOD" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
 
         } else if (player.hasPermission("dev.chat")) {
-            event.setFormat(ChatColor.DARK_PURPLE + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + "DEVELOPER" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
 
         } else if (player.hasPermission("manager.chat")) {
-            event.setFormat(ChatColor.DARK_AQUA + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.DARK_AQUA + "" + ChatColor.BOLD + "MANAGER" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
 
         } else if (player.hasPermission("admin.chat")) {
-            event.setFormat(ChatColor.GOLD + "*" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
+            event.setFormat(ChatColor.GOLD + "" + ChatColor.BOLD + "ADMIN" + ChatColor.GRAY + "%s" + " \u00BB " + "%s");
 
 
         } else {
